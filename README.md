@@ -14,7 +14,7 @@ This repo shows how to train neural language models using [Pytorch example code]
 
 Clone this repository in the desired place:
 
-    git clone https://github.com/emmavdbold/mt-exercise-3
+    git clone https://github.com/gerie1/mt-exercise-3
     cd mt-exercise-3
 
 Create a new virtualenv that uses Python 3. Please make sure to run this command outside of any virtual Python environment:
@@ -40,3 +40,12 @@ The training process can be interrupted at any time, and the best checkpoint wil
 Generate (sample) some text from a trained model with:
 
     ./scripts/generate.sh
+    
+# Changes
+
+download_data.sh: updated with own dataset
+generate.sh: model path updated
+train.sh: gpu activated, data path updated, emsize = 250, nhid = 250, --dropout 0.7, model name updated
+samples folder: sample file generated
+models folder: five models trained
+data folder: inaugural_speeches dataset created
