@@ -40,12 +40,12 @@ The training process can be interrupted at any time, and the best checkpoint wil
 Generate (sample) some text from a trained model with:
 
     ./scripts/generate.sh
-    
+
 # Changes
 
-download_data.sh: updated with own dataset
-generate.sh: model path updated
-train.sh: gpu activated, data path updated, emsize = 250, nhid = 250, --dropout 0.7, model name updated
-samples folder: sample file generated
-models folder: five models trained
-data folder: inaugural_speeches dataset created
+- download_data.sh: updated with own dataset
+- generate.sh: model path updated
+- train.sh: gpu activated, data path updated, emsize = 250, nhid = 250, --dropout 0.7, model name updated
+- samples folder: sample file generated
+- models folder: five models trained
+- data folder: inaugural_speeches dataset created
